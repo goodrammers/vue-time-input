@@ -8,7 +8,8 @@
     },
     "scripts": {
         "build": "vite build",
-        "dev": "vite --config demo/vite.config.ts"
+        "dev": "vite --config demo/vite.config.ts",
+        "type-check": "tsc --noEmit"
     },
     "devDependencies": {
         "@types/node": "^22.13.1",
