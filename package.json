@@ -1,10 +1,17 @@
 {
-    "name": "vue-time-input",
-    "version": "1.0.0",
-    "main": "index.js",
+    "name": "gcomp-vue-time-input",
+    "version": "1.0.1",
     "license": "MIT",
     "dependencies": {
         "vue": "^3.5.13"
+    },
+    "main": "dist/vue-time-input.cjs.js",
+    "module": "dist/vue-time-input.es.js",
+    "types": "dist/types/index.d.ts",
+    "files": ["dist"],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/goodrammers/vue-time-input"
     },
     "scripts": {
         "build": "vite build",
