@@ -1,11 +1,14 @@
 {
-    "name": "vue-time-input",
+    "name": "gcomp-vue-time-input",
     "version": "1.0.0",
-    "main": "index.js",
     "license": "MIT",
     "dependencies": {
         "vue": "^3.5.13"
     },
+    "main": "dist/vue-time-input.cjs.js",
+    "module": "dist/vue-time-input.es.js",
+    "types": "dist/types/index.d.ts",
+    "files": ["dist"],
     "scripts": {
         "build": "vite build",
         "dev": "vite --config demo/vite.config.ts",
